@@ -19,7 +19,6 @@ if st.session_state['usuario'] is None:
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         st.title("🚚 Login - ÍCARO Log")
-        st.info("Utilize a matrícula 'admin' e a senha 'admin123' no primeiro acesso.")
         with st.form("login_form"):
             matricula = st.text_input("Matrícula")
             senha = st.text_input("Senha", type="password")
